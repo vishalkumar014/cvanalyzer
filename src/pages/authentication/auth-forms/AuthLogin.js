@@ -20,7 +20,7 @@ const AuthLogin = () => {
           isOnlyGetToken={false}
           client_id={"170473185277-pm0tqj0fa1bk4sq70hn39ltiqfj3ovsn.apps.googleusercontent.com"}
           onLoginStart={onLoginStart}
-          redirect_uri='http://localhost:3000/login'
+          redirect_uri='https://cvanalyzer.vercel.app/login'
           onResolve={({ provider, data }) => {
             login(data)
             setLoader(false)
