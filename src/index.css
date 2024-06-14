@@ -5,3 +5,12 @@ body{
   display: flex;
   cursor: pointer;
 }
+button:hover,label:hover {
+  background-color: #3a3a3a !important;
+}
+.cvanalyzer_btn:hover{
+  background-color: #077e1a !important;
+}
+.cvBtn:hover {
+  background-color: unset !important;
+}

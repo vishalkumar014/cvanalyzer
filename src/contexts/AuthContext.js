@@ -68,9 +68,9 @@ export const AuthProvider = ({ children }) => {
   };
 
   const login = async (data) => {
-    const {access_token,email,name} = data
-    let user = {email,name}
-    setSession(access_token)
+    const {accessToken,email,displayName} = data
+    let user = {email,displayName}
+    setSession(accessToken)
     dispatch({
       type: LOGIN,
       payload: {
